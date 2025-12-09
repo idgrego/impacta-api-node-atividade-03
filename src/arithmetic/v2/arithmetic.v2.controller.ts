@@ -1,5 +1,5 @@
 import { Controller, Post, Body } from '@nestjs/common';
-import { ArithmeticService } from './arithmetic.service';
+import { ArithmeticService } from '../arithmetic.service';
 import { OperationRequest } from './operation-request.model';
 
 @Controller({

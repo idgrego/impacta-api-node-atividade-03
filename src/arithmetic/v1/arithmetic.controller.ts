@@ -5,7 +5,7 @@ import {
   Query,
   VERSION_NEUTRAL,
 } from '@nestjs/common';
-import { ArithmeticService } from './arithmetic.service';
+import { ArithmeticService } from '../arithmetic.service';
 
 @Controller({
   path: 'arithmetic',

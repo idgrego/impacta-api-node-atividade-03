@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { ArithmeticController } from './arithmetic.controller';
-import { ArithmeticService } from './arithmetic.service';
+import { ArithmeticService } from '../arithmetic.service';
 
 describe('ArithmeticController', () => {
   let arithmeticController: ArithmeticController;
